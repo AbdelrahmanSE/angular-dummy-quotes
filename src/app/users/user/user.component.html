@@ -1,4 +1,4 @@
-<div class="wrapper" (click)="getUserPosts()">
+<div class="wrapper" (click)="getUserPosts($event)">
   <div class="name">{{ user.name }}</div>
   <button (click)="delete()">Delete</button>
   <div class="info">{{ user.email }}</div>
