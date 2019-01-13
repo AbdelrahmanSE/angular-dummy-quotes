@@ -1,5 +1,7 @@
 <div class="wrapper">
-  <div (click)="toggle()" class="title">{{ post.title }}</div>
-  <button (click)="delete()">Delete</button>
+  <div class="d-flex">
+      <div (click)="toggle()" class="title">{{ post.title }}</div>
+      <button class="btn btn-sm btn-danger ml-auto" (click)="delete()">Delete</button>
+  </div>
   <div *ngIf="active">{{ post.body }}</div>
 </div>

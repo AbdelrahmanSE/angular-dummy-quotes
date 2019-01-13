@@ -1,20 +1,29 @@
-h1{
+h1 {
   height: 10vh;
   margin-bottom: 0;
   text-align: center;
   border-bottom: 1px solid #DDD;
   padding-top: 15px;
+  color: #fff;
+  background: #03A9F4;
+  text-transform: uppercase;
 }
-.wrapper{
+
+.wrapper {
   height: 90vh;
-  > div{
+
+  >div {
     overflow: auto;
   }
-  .users{
+
+  .users {
     width: 25%;
     border-right: 1px solid #DDD;
+    padding: 10px 15px;
   }
-  .posts{
+
+  .posts {
     width: 75%;
+    padding: 10px 15px;
   }
 }
