@@ -1,0 +1,6 @@
+<div class="wrapper" (click)="getUserPosts()">
+  <div class="name">{{ user.name }}</div>
+  <button (click)="delete()">Delete</button>
+  <div class="info">{{ user.email }}</div>
+  <div class="info"><a [href]="'http://' + user.website" target="_blank">{{ user.website }}</a></div>
+</div>

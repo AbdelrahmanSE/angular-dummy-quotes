@@ -1,0 +1,16 @@
+.wrapper {
+  padding: 15px 30px;
+  border: 1px solid #777;
+  margin: 15px;
+  cursor: pointer;
+
+  .name {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .info {
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+}

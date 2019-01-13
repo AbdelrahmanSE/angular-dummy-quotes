@@ -1,0 +1,5 @@
+<div class="wrapper">
+  <div (click)="toggle()" class="title">{{ post.title }}</div>
+  <button (click)="delete()">Delete</button>
+  <div *ngIf="active">{{ post.body }}</div>
+</div>
