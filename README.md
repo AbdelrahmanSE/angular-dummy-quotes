@@ -1,4 +1,8 @@
-# TaskB
+# Dummy Quotes
+
+This is a project to consume the [JSON Placeholder](https://jsonplaceholder.typicode.com/ "JSON Placeholder") API
+
+## [ Live Demo](https://dummy-quotes.netlify.com " Live Demo")
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
