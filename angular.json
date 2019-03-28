@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "task-b": {
+    "angular-dummy-quotes": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/task-b",
+            "outputPath": "dist/angular-dummy-quotes",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -61,18 +61,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "task-b:build"
+            "browserTarget": "angular-dummy-quotes:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "task-b:build:production"
+              "browserTarget": "angular-dummy-quotes:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "task-b:build"
+            "browserTarget": "angular-dummy-quotes:build"
           }
         },
         "test": {
@@ -106,7 +106,7 @@
         }
       }
     },
-    "task-b-e2e": {
+    "angular-dummy-quotes-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -115,11 +115,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "task-b:serve"
+            "devServerTarget": "angular-dummy-quotes:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "task-b:serve:production"
+              "devServerTarget": "angular-dummy-quotes:serve:production"
             }
           }
         },
@@ -135,5 +135,5 @@
       }
     }
   },
-  "defaultProject": "task-b"
+  "defaultProject": "angular-dummy-quotes"
 }
