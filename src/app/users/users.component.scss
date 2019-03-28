@@ -1,0 +1,10 @@
+.users-list {
+  @media screen and (max-width: 700px) {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    app-user{
+        min-width: 350px;
+    }
+  }
+}

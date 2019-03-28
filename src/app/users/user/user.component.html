@@ -1,7 +1,7 @@
 <div class="wrapper" (click)="getUserPosts($event)">
   <div class="d-flex">
     <div class="name">{{ user.name }}</div>
-    <button class="btn btn-sm btn-primary ml-auto" (click)="delete()">Delete</button>
+    <button class="btn btn-sm btn-primary ml-auto" (click)="delete()">X</button>
   </div>
   <div class="info">{{ user.email }}</div>
   <div class="info"><a [href]="'http://' + user.website" target="_blank">{{ user.website }}</a></div>

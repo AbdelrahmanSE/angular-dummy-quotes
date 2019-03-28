@@ -1,0 +1,15 @@
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+
+  app-post {
+    min-width: 300px;
+    max-width: 33%;
+    flex: auto;
+
+    @media all and (max-width: 700px) {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
